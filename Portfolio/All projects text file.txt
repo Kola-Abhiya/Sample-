@@ -1,0 +1,28 @@
+Azure projects:
+1.Cheating a chatbot
+2.Building a serverless architecture
+
+
+
+Python:
+1.Typing speed project 
+
+2.Web Scraper Tool
+A web scraper is a Python-based application that automatically extracts data from websites. This project involves writing a script to send requests to web pages and parse the HTML content to retrieve information like product details, prices, news articles, or social media posts.
+
+This is a valuable project for your CV, whether you are aiming for a job in tech, analytics, or any industry that values data-driven decision-making.
+
+Scraping tools are used across industries for data collection, market research, lead generation, and competitive analysis. Web scraping requires a range of skills, including an understanding of HTML and CSS and working with APIs and libraries such as BeautifulSoup or Scrapy in Python.
+
+Data.world has several web scraping open datasets that you can practice on. If you need help getting started, here is a tutorial on building a web scraper from scratch.
+
+3.Youtube Video Downloader GUI
+The likelihood that your personal information will be leaked increases if you download the video using Downloader or try to do it from an arbitrary website. This task is quite easy-efficient-safe when done with the Python Tkinter library.
+
+The YouTube Video Downloader attempts to quickly, easily, and quickly download any sort of video from YouTube.The user must copy the URL link for the YouTube video before pasting it into the application. Later, in order to download the video, the user must click the download button.
+
+Libraries Used:
+Tkinter
+pytube
+
+3.Aviater game 

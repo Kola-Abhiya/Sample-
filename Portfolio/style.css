@@ -1,0 +1,517 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+.body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+/* Project Cards */
+.project-card,
+.project-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd; /* Reduced border thickness */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  width: 30%;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+.logo {
+  font-size: 1.8em;
+  font-family: "Pacifico", cursive;
+  color: #4a90e2;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #4a90e2;
+}
+.blue-heading {
+  color: blue; /* Blue color for the headings */
+  font-weight: bold; /* Make the text bold */
+  font-size: 1.2rem; /* Adjust font size */
+}
+
+.hire-me {
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+}
+
+.hire-me:hover {
+  background-color: #357abd;
+}
+
+/* Sections */
+.section {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.section p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.linkedin-icon img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.linkedin-icon:hover img {
+  transform: scale(1.1);
+}
+
+.github-icon img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.github-icon:hover img {
+  transform: scale(1.1);
+}
+.github-icon img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.github-icon:hover img {
+  transform: scale(1.1);
+}
+.hero-graphic {
+  max-width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*--Profile-details--*/
+.profile-picture {
+  width: 200px;
+  height: 250px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.profile-picture:hover {
+  transform: translateY(-10px);
+}
+
+.profile-picture:hover img {
+  filter: brightness(1.1);
+}
+
+/* Tech Arsena Section */
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.tech-item {
+  background-color: #f1f1f1;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.tech-item:hover {
+  transform: translateY(-5px);
+  background-color: #4a90e2;
+  color: white;
+}
+
+/* Footer */
+.footer {
+  text-align: left;
+  padding: 10px 20px;
+  font-size: 0.8em;
+  color: #666;
+  background-color: #f9f9f9;
+}
+
+/* New Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #333;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hire-me {
+  background-color: #ffa500;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Sections */
+.section {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.section p {
+  margin-bottom: 20px;
+  color: #666;
+}
+/* Styling the heading colors */
+.tech-heading {
+  color: #0078d4; /* Azure blue color for Azure and Additional Technologies */
+}
+
+.tech-arsena-heading {
+  color: #ffa500; /* Orange color for Tech Arsena */
+}
+/* Add spacing between Tech Arsena heading and its list */
+.tech-arsena-heading {
+  margin-bottom: 10px; /* Adjust the space below the heading */
+}
+
+/* Alternatively, add spacing to the tech list */
+.tech-list {
+  margin-top: 11px; /* Adjust the space above the list */
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Navbar */
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 20px;
+  background: #333;
+}
+.nav-links li {
+  margin: 0 10px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+/* General Styles for the Project Section */
+.projects-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  justify-content: space-between;
+}
+/* General Section Styling */
+.section {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+/* Projects Container */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping of cards to the next row */
+  gap: 20px; /* Space between project cards */
+  justify-content: space-between; /* Distribute cards evenly */
+  padding: 20px;
+}
+
+/* Individual Project Rows */
+.projects-row {
+  display: flex;
+  flex-wrap: wrap; /* Ensures cards wrap to the next line if needed */
+  gap: 20px; /* Spacing between project cards */
+  margin-bottom: 30px; /* Space between rows */
+  justify-content: space-between; /* Even spacing between items */
+}
+
+/* Project Card Styling */
+.project-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 48%; /* Adjusted to fit 2 items per row on larger screens */
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect for Cards */
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Project Logo Styling */
+.project-logo {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+/* Project Card Title */
+.project-card h3 {
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/* Project Card Description */
+.project-card p {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #555;
+}
+
+/* Project List (Optional, commented for future use) */
+.project-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-list li {
+  font-size: 1em;
+  color: #555;
+  margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .projects-row {
+    flex-direction: column; /* Stack rows vertically on smaller screens */
+    gap: 20px; /* Maintain consistent spacing */
+  }
+
+  .project-card {
+    width: 100%; /* Cards take full width on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .project-logo {
+    width: 40px; /* Reduce logo size for very small screens */
+  }
+
+  .project-card h3 {
+    font-size: 1.2em; /* Adjust heading size */
+  }
+
+  .project-card p {
+    font-size: 0.9em; /* Adjust text size */
+  }
+}
+
+/* Add the new styles at the end or where it fits best */
+.hero-content a {
+  margin-right: 10px; /* Adjust space between icons if needed */
+}
+
+.linkedin-icon,
+.github-icon {
+  display: inline-block;
+}
+
+.linkedin-icon img,
+.github-icon img {
+  width: 30px; /* Adjust the size of the icons */
+  height: auto;
+}
+/* Smooth functioning */
+html {
+  scroll-behavior: smooth;
+}
+/*-Contact--*/
+
+/* Contact Section Styles */
+#contact {
+  padding: 50px 20px;
+  background-color: #f0f8ff; /* Lightened version of #4a90e2 */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  color: #4a90e2; /* Primary theme color */
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Form Styles */
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between form fields */
+}
+
+#contact .form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#contact label {
+  font-size: 1em;
+  margin-bottom: 5px;
+  color: #4a90e2; /* Primary theme color */
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #4a90e2; /* Matches theme */
+  border-radius: 5px;
+  font-size: 1em;
+  background-color: #eaf4ff; /* Subtle light background */
+}
+
+#contact textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+#contact button {
+  padding: 10px;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+  align-self: center;
+  max-width: 150px;
+}
+
+#contact button:hover {
+  background-color: #e2904a; /* Complementary color */
+}
+
+/* Success/Failure Message */
+#contact #response-message {
+  margin-top: 10px;
+  font-size: 1em;
+  text-align: center;
+  color: #4a90e2;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #contact {
+    padding: 20px;
+  }
+}
